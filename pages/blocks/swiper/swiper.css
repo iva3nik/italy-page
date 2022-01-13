@@ -1,0 +1,62 @@
+.swiper {
+  padding: 25px 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper__strip {
+  display: flex;
+  align-items: start;
+}
+
+.swiper__circle {
+  background-color: #0c93a4;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+
+.swiper__info {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  width: 230px;
+}
+
+.swiper__points {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.swiper__point {
+  width: 16px;
+  height: 16px;
+  background: #e5e5e5;
+  border-radius: 50%;
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper__point_active {
+  width: 8px;
+  height: 8px;
+  background: #0c93a4;
+  border-radius: 50%;
+  margin: 0;
+}

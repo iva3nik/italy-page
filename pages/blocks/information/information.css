@@ -1,0 +1,30 @@
+.information {
+  width: 100%;
+  background-color: #029044;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 16px 0;
+  box-sizing: border-box;
+}
+
+.information_type_white {
+  background-color: white;
+  color: #d51d21;
+}
+
+.information_type_blue {
+  background-color: #0c93a4;
+}
+
+.information span {
+  color: black;
+  font-weight: 700;
+}
+
+.information__text {
+  width: 288px;
+  text-align: center;
+  margin: 0 auto;
+}

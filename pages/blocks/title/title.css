@@ -1,0 +1,30 @@
+.title {
+  width: 100%;
+}
+
+.title__color {
+  background-color: #029044;
+  height: 19px;
+}
+
+.title__color:last-of-type {
+  background-color: #d51d21;
+}
+
+.title__title {
+  width: 293px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff0000;
+  margin: 1px 0 4px;
+}
+
+.title__title span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: none;
+}

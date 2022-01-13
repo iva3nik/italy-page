@@ -1,0 +1,35 @@
+.banner__img {
+  width: 100%;
+  height: 163px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.banner__strip {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f98000;
+  padding: 0 16px 0 30px;
+  box-sizing: border-box;
+}
+
+.banner__text {
+  width: 200px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+  margin: 0;
+}
+
+.banner__text span {
+  font-weight: 700;
+}
+
+.banner__icon {
+  width: 67px;
+  height: 73px;
+}

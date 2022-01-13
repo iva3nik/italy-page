@@ -1,0 +1,42 @@
+.banner-two {
+  width: 100%;
+  background-color: #0c93a4;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-two__title {
+  width: 286px;
+  margin-bottom: 13px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner-two__img-with-text {
+  align-self: flex-end;
+  position: relative;
+}
+
+.banner-two__img {
+  width: 293px;
+  height: 220px;
+  vertical-align: bottom;
+}
+
+.banner-two__img-text {
+  position: absolute;
+  top: 45px;
+  left: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 86px;
+  text-align: center;
+}
